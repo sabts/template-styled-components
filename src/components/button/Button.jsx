@@ -1,5 +1,7 @@
-const Button = () => {
-return<button>Click me</button>
-}
+import { StyledButton } from "./button.styles";
 
-export default Button
+const Button = () => {
+  return <StyledButton>Click here </StyledButton>;
+};
+
+export default Button;
